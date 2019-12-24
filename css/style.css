@@ -1,0 +1,151 @@
+body{
+  margin: 0;
+  padding: 0;
+ /* overflow: hidden;*/
+}
+
+/*div{
+  border: 2px solid red;
+}*/
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  background: #fa6634;
+  height: 100vh;
+  padding-top: 20px;
+}
+.cat{
+  border-radius: 50px;
+  width: 400px;
+  height:400px;
+}
+
+#displayImage{
+  display: flex;
+  justify-content: center;
+}
+
+#blockButton{
+  display: flex;
+  justify-content: center;
+}
+#blockAktive{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#blockAktive1{
+  display: none;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.wrapper{
+  width: 150px;
+}
+.select{
+  position: absolute;
+  transform: translateX(120px);
+}
+.restart{
+  position: absolute;
+}
+.start-button{
+  background: #fa6634;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  transform: translateY(350px);
+}
+#start{
+ display: block;
+}
+
+.button{
+  background: #3296cc;
+  color: #f2f2f2;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  margin: 0 35px;
+  outline: none;
+  text-transform:uppercase;
+}
+
+.button:hover{
+  background: #085179;
+}
+#buy{
+  display: none;
+}
+
+#business, #work {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#bar{
+  margin-right: 10px;
+}
+#doctor{
+  margin-left: 55px;
+}
+
+
+.blockLoad{
+  width:120px;
+  margin: 5px 10px;
+  padding: 3px 3px;
+}
+.load{
+  
+  background: #7ef79d;
+  border-radius:5px;
+  padding: 3px 3px;
+}
+.wrapper{
+  width: 108px;
+  border-radius:5px;
+  border:1px solid green;
+  padding: 0;
+}
+#loadBar{
+   display: flex;
+  justify-content: center;
+  
+}
+
+#blockButton{
+  display: flex;
+  padding: 5px 0px;
+  padding-right: 20px;
+}
+
+#message{
+  position: absolute;
+  text-align: center;
+  color: red;
+  transform: translateY(230px);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#score{
+  margin-top:20px;
+  color: #000;
+  transform: translate(-120px,0px);
+  position: absolute;
+}
+
+#help{
+  position: absolute;
+  font-size: 24px;
+  color: #fa6634;
+  transform: translateY(350px);
+}
